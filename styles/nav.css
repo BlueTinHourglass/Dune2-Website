@@ -1,0 +1,29 @@
+nav {
+    width: 580px;
+    margin:  auto;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #ffddaa;
+    border: solid #AA7939 2px;
+}
+
+
+nav a {
+    margin: auto;
+    text-align: center;
+    padding: 2px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #AA7939;
+}
+
+nav a[href="#"]{
+    color: #805616;
+}
+
+nav a[href="#"]:hover{
+    cursor: default;
+}

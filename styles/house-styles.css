@@ -1,0 +1,90 @@
+html {
+    background-image: url("../images/background/August1.webp");
+}
+
+article a:hover {
+    color: lightgoldenrodyellow;
+}
+
+#house-contents {
+
+    width: 500px;
+    margin: 10px auto;
+}
+
+img {
+    border: none;
+    margin: 40px;
+    display: inline;
+}
+
+h2 {
+    background-image: url(../images/sidebar/hra.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    height:38px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#atreides h2 {
+    background-image: url(../images/sidebar/hra.png);
+    color: #202F7A;
+}
+
+#atreides h3, #atreides figcaption {
+    color: #202F7A;
+}
+
+#harkonnen h2{
+    background-image: url(../images/sidebar/hr.png);
+    color: #780000;
+}
+
+#harkonnen h3, #harkonnen figcaption {
+    color: #780000;
+}
+
+#ordos h2 {
+    background-image: url(../images/sidebar/hro.png);
+    color: #1D781D;
+
+}
+
+#ordos h3, #ordos figcaption {
+    color: #1D781D;
+}
+
+article figure {
+    float: left;
+    clear:left;
+    margin: 0px;
+    padding-left: 0
+}
+article img {
+    margin: 0px;
+}
+
+article {
+    width: 540px;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.unit-list {
+    width: 245px;
+    margin: 0px auto;
+}
+
+#house-contents img:hover{
+    filter: brightness(110%);
+}
+
+/*
+img[alt="Atreides"]:hover, img[alt="Harkonnen"]:hover, img[alt="Ordos"]:hover {
+    filter: brightness(110%);
+}
+*/
+
+
+

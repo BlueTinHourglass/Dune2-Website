@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dune II</title>
+        <link rel="icon" href="images/sprites/units/harkonnen/devastator.gif" type="image/gif">  
+        <link rel="stylesheet" media="screen" href="/styles/style.css">
+        <link rel="stylesheet" media="screen" href="/styles/building-styles.css">
+        <link rel="stylesheet" media="screen" href="/styles/nav.css">
+    </head>
+    
+    <body>
+        <h1>Dune II buildings</h1>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="units.html">Units</a>
+            <a href="#">Buildings</a>
+            <a href="houses.html">Houses</a>
+        </nav>
+        
+        <header id="building-contents">
+            <!-- list of scrolldown links with the sprite of the building next to each link-->
+            <h2>Contents</h2>
+            <ul>
+                <li><a href="#slab" id="link-slab">Concrete Slab</a></li>
+                <li><a href="#walls" id="link-walls">Walls</a></li>
+                <li><a href="#windtrap" id="link-windtrap">Wind Trap</a></li>
+                <li><a href="#refinery" id="link-refinery">Refinery</a></li>
+                <li><a href="#silo" id="link-silo">Spice Silos</a></li>
+                <li><a href="#outpost" id="link-outpost">Outpost</a></li>
+                <li><a href="#turret" id="link-turret">Turret</a></li>
+                <li><a href="#rTurret" id="link-rTurret">Rocket Turret</a></li>
+                <li><a href="#cYard" id="link-cYard">Construction Yard</a></li>
+                <li><a href="#barracks" id="link-barracks">Barracks</a></li>
+                <li><a href="#WOR" id="link-WOR">WOR</a></li>
+                <li><a href="#light" id="link-light">Light Factory</a></li>
+                <li><a href="#heavy"  id="link-heavy">Heavy Factory</a></li>
+                <li><a href="#tech" id="link-tech">High Tech Factory</a></li>
+                <li><a href="#repair" id="link-repair">Repair Facility</a></li>
+                <li><a href="#IX" id="link-IX">IX</a></li>
+                <li><a href="#starport" id="link-starport">Starport</a></li>
+                <li><a href="#palace" id="link-palace">Palace</a></li>
+            </ul>
+        </header>
+        <section>
+            <h2>Normal buildings</h2>
+            
+            <article id="slab">
+                <figure>
+                    <pre>Concrete Slab</pre>
+                    <img src="images/portraits/buildings/concrete-slab.jpg" alt="slab">
+                    <figcaption>Concrete Slab</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Foundation</td>
+                    </tr>
+                    <tr>
+                        <th>Weight</th>
+                        <td>1,469 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Material</th>
+                        <td>Gravel/Sand base mix</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>1 tile</td>
+                    </tr>
+                </table>
+                <q>Concrete Slabs may serve as roadways and make up the foundations that are required before erecting structures. Concrete slabs cannot be repaired if damaged, and must be replaced or abandoned.</q>
+            </article>
+
+            <article id="walls">
+                <figure>
+                    <pre>Hardened Wall</pre>
+                    <img src="images/portraits/buildings/walls.jpg" alt="Hardened Wall">
+                    <figcaption>Walls</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Defensive Wall</td>
+                    </tr>
+                    <tr>
+                        <th>Weight</th>
+                        <td>2,245 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Material</th>
+                        <td>Gravel/Sand base mix</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>1 tile</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#outpost" id="link-outpost">Outpost</a></td>
+                    </tr>
+                </table>
+                <q>Walls can be used for structure enhancement and fortification purposes. Like the concrete slabs, walls can not be repaired.</q>
+            </article>
+            
+            <article id="windtrap">
+                <figure>
+                    <pre>Power Generator
+Power Output: 100</pre>
+                    <img src="images/portraits/buildings/wind-trap.jpg" alt="Wind Trap">
+                    <figcaption>Wind Trap</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Power Plant</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Light</td>
+                    </tr>
+                    <tr>
+                        <th>Generators</th>
+                        <td>ESkort 650 hp EL-2A Dual Turbine</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Output</th>
+                        <td>100</td>
+                    </tr>
+                </table>
+                <q>The Wind Traps provide power and water to an installation. Large, above-ground ducts funnel wind underground into turbines which power the generators and humidity extractors.</q>
+            </article>
+            
+            <article id="refinery">
+                <figure>
+                    <pre>Spice Refinery
+Power Needs: 30</pre>
+                    <img src="images/portraits/buildings/refinery.jpg" alt="Spice Refinery">
+                    <figcaption>Spice Refinery</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Industrial Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>1000 spice units</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#windtrap" id="link-windtrap">Wind Trap</a></td>
+                    </tr>
+                </table>
+                <q>The Wind Traps provide power and water to an installation. Large, above-ground ducts funnel wind underground into turbines which power the generators and humidity extractors.</q>
+            </article>
+            
+            <article id="silo">
+                <figure>
+                    <pre>Spice Storage Silo
+Power Needs: 5</pre>
+                    <img src="images/portraits/buildings/spice-silos.jpg" alt="Spice Storage Silo">
+                    <figcaption>Spice Refinery</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Storehouse</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Light</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>1000 spice units</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#refinery" id="link-refinery">Refinery</a></td>
+                    </tr>
+                </table>
+                <q>Spice Silos hold harvested spice. When the Refinery completes the conversion process, it automatically distributes the spice evenly among the silos. Note: When harvested spice quantities exeed Silo capacity, the excess will be lost.</q>
+            </article>
+            
+            <article id="outpost">
+                <figure>
+                    <pre>Radar Outpost
+Power Needs: 30</pre>
+                    <img src="images/portraits/buildings/outpost.jpg" alt="Outpost">
+                    <figcaption>Radar Outpost</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Military/Surveillance Structure</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#windtrap" id="link-windtrap">Wind Trap</a></td>
+                    </tr>
+                </table>
+                <q>The radar capabilites of an Outpost are used for military command purposes. An on-screen radar is activated when construction of the Outpost is complete. An Outpost is requred before any new military units can be produced.</q>
+            </article>
+            
+            <article id="turret">
+                <figure>
+                    <pre>Base Defence Turret
+Power Needs: 10</pre>
+                    <img src="images/portraits/buildings/turret.jpg" alt="Base Defence Turret">
+                    <figcaption>Base Defence Turret</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Ground Based Turret</td>
+                    </tr>
+                    <tr>
+                        <th>Elevation</th>
+                        <td>0° to 20°</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <th>Range</th>
+                        <td>100m</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>105mm cannon</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>1 tile</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#outpost" id="link-outpost">Outpost</a></td>
+                    </tr>
+                </table>
+                <q>This stationary turret fires armour-piercing rounds at close range. Turrets are maintained by a single tactical ground commander, who handles targeting and guidence. Turrets will fire on any enemy units within range.</q>
+            </article>
+            
+            <article id="rTurret">
+                <figure>
+                    <pre>Rocket Turret
+Power Needs: 25</pre>
+                    <img src="images/portraits/buildings/rocket-turret.jpg" alt="Rocket Turret">
+                    <figcaption>Rocket Turret</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Ground Based Turret</td>
+                    </tr>
+                    <tr>
+                        <th>Elevation</th>
+                        <td>0° to 20°</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <th>Range</th>
+                        <td>100m/1000m</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>105mm cannon/Twin missile launchers</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>1 tile</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisites</th>
+                        <td><a href="#outpost" id="link-outpost">Outpost</a>, <a href="#cYard" id="link-cYard">Construction Yard (Level 3)</a></td>
+                    </tr>
+                </table>
+                <q>An upgraded version of the standard Turret, the missile turret also has long range, high explosive projectiles. The additional missile launchers are attached to the head of the turret.</q>
+            </article>
+            
+            <article id="cYard">
+                <figure>
+                    <pre>Construction Yard
+(Harsh Climate Model)
+Self-Powered</pre>
+                    <img src="images/portraits/buildings/construction-yard.jpg" alt="Construction Yard">
+                    <figcaption>Construction Yard</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                </table>
+                <div class="upgrades">
+                <table>
+                    <tr>
+                        <th>Upgrade</th>
+                        <th>Cost</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200</td>
+                        <td>2x2 Concrete Slab</td>     
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>200</td>
+                        <td>Rocket Turret</td>     
+                    </tr>
+                </table>
+                </div>
+                <q>A Construction Yard is required to build any new structures. It contains all materials required for building structures on Dune.</q>
+            </article>
+            
+            <article id="barracks">
+                <figure>
+                    <pre>Infantry Barracks
+Power Needs: 10</pre>
+                    <img src="images/portraits/buildings/barracks.jpg" alt="Barracks">
+                    <figcaption>Infantry Barracks</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#outpost" id="link-outpost">Outpost</a></td>
+                    </tr>
+                </table>
+                
+                <div class="upgrades">
+                <table>
+                    <tr>
+                        <th>Upgrade</th>
+                        <th>Cost</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>150</td>
+                        <td>Light Infantry Squad</td>     
+                    </tr>
+                </table>
+                </div>
+
+                <div class="production">
+                <table>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#infantry" id="link-infantry-solo">Light Infantry</a></td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#infantry" id="link-infantry">Light Infantry Squad</a></td>
+                        <td>100</td>
+                    </tr>
+                </table>
+                </div>
+                <q>Barracks are required to produce and train Light Infantry units.</q>
+            </article>
+            
+            <article id="WOR">
+                <figure>
+                    <pre>Trooper Barracks
+Power Needs: 20</pre>
+                    <img src="images/portraits/buildings/wor.jpg" alt="WOR">
+                    <figcaption>Trooper Barracks</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#outpost" id="link-outpost">Outpost</a></td>
+                    </tr>
+                </table>
+                <div class="upgrades">
+                <table>
+                    <tr>
+                        <th>Upgrade</th>
+                        <th>Cost</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200</td>
+                        <td>Heavy Trooper Squad</td>     
+                    </tr>
+                </table>
+                </div>
+                <div class="production">
+                <table>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#trooper" id="link-trooper">Heavy Trooper</a></td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#trooper" id="link-troopers">Heavy Trooper Squad</a></td>
+                        <td>200</td>
+                    </tr>
+                </table>
+                </div>
+                <q>The WOR facility produces Heavy Trooper units by providing advanced training and weaponry.</q>
+            </article>
+            
+            <article id="light">
+                <figure>
+                    <pre>Light Vehicle Factory
+Power Needs: 20</pre>
+                    <img src="images/portraits/buildings/light-factory.jpg" alt="Light Factory">
+                    <figcaption>Light Vehicle Factory</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#refinery" id="link-refinery">Refinery</a></td>
+                    </tr>
+                </table>
+                <div class="upgrades">
+                <table>
+                    <tr>
+                        <th>Upgrade</th>
+                        <th>Cost</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200</td>
+                        <td>Quad</td>     
+                    </tr>
+                </table>
+                </div>
+                <div class="production">
+                <table>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#raider" id="link-raider">Raider</a></td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#trike" id="link-trike">Trike</a></td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#quad" id="link-quad">Quad</a></td>
+                        <td>200</td>
+                    </tr>
+                </table>
+                </div>
+                <q>The Light Factory produces small, lightly armoured, combat vehicles. A light Factory must be built before a Heavy Factory can be constructed.</q>
+            </article>
+            
+            <article id="heavy">
+                <figure>
+                    <pre>Heavy Vehicle Factory
+Power Needs: 35</pre>
+                    <img src="images/portraits/buildings/heavy-factory.jpg" alt="Heavy Factory">
+                    <figcaption>Heavy Vehicle Factory</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#light" id="link-light">Light Factory</a></td>
+                    </tr>
+                </table>
+                <div class="upgrades">
+                    <table>
+                        <tr>
+                            <th>Upgrade</th>
+                            <th>Cost</th>
+                            <th>Unlocks</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>300</td>
+                            <td>MCV</td>     
+                        </tr>
+                         <tr>
+                            <td>2</td>
+                            <td>300</td>
+                            <td>Missile Tank</td>     
+                        </tr>
+                         <tr>
+                            <td>3</td>
+                            <td>300</td>
+                            <td>Siege Tank</td>     
+                        </tr>
+                    </table>
+                </div>
+                <div class="production">
+                    <table>
+                        <tr>
+                            <th>Unit</th>
+                            <th>Cost</th>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#tank" id="link-tank">Combat Tank</a></td>
+                            <td>300</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#rocket" id="link-rocket">Missile Tank</a></td>
+                            <td>450</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#sTank" id="link-sTank">Siege Tank</a></td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#mcv" id="link-mcv">MCV</a></td>
+                            <td>900</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#harvester" id="link-harvester">Harvester</a></td>
+                            <td>300</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#sonic" id="link-sonic">Sonic Tank</a></td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#devastator" id="link-devastator">Devastator</a></td>
+                            <td>800</td>
+                        </tr>
+                        <tr>
+                            <td><a href="units.html#deviator" id="link-deviator">Deviator</a></td>
+                            <td>750</td>
+                        </tr>
+                    </table>
+                </div>
+                <q>The Heavy Factory produces large, tracked, military or spice harvesting vehicles. Harvesters and tanks can be produced with a Heavy Factory.</q>
+            </article>
+            
+            <article id="tech">
+                <figure>
+                    <pre>High-Tech Factory
+Power Needs: 35</pre>
+                    <img src="images/portraits/buildings/high-tech-factory.jpg" alt="High-Tech Factory">
+                    <figcaption>High-Tech Factory</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Production Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#light" id="link-light">Light Factory</a></td>
+                    </tr>
+                </table>
+                <div class="upgrades">
+                <table>
+                    <tr>
+                        <th>Upgrade</th>
+                        <th>Cost</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200</td>
+                        <td>Ornithopter</td>     
+                    </tr>
+                </table>
+                </div>
+                <div class="production">
+                <table>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#carryall" id="link-carryall">Carryall</a></td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#thopter" id="link-thopter">Ornithopter</a></td>
+                        <td>600</td>
+                    </tr>
+                </table>
+                    </div>
+                <q>The High Tech Factory produces airborne units, such as the Carryalls.</q>
+            </article>
+            
+            <article id="repair">
+                <figure>
+                    <pre>Vehicle Repair Facility
+Power Needs: 20</pre>
+                    <img src="images/portraits/buildings/repair-facility.jpg" alt="Repair Facility">
+                    <figcaption>Vehicle Repair Facility</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Industrial Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>700</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#light" id="link-light">Light Factory</a></td>
+                    </tr>
+                </table>
+                <q>A Repair Facility is required to repair damaged vehicles. Credits are charged according to the extent of damage and type of vehicle repaired.</q>
+            </article>
+            
+            <article id="IX">
+                <figure>
+                    <pre>IX Research Center
+Power Needs: 40</pre>
+                    <img src="images/portraits/buildings/ix.jpg" alt="IX Research Center">
+                    <figcaption>IX Research Center</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Technology Facility</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>2x2 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="starport" id="link-starport">Starport</a></td>
+                    </tr>
+                </table>
+                <div class="abilities">
+                <table>
+                    <tr>
+                        <th>House</th>
+                        <th>Unlocks</th>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#atreides" class="link-atreides">Atreides</a></td>
+                        <td><a href="units.html#sonic" id="link-sonic">Sonic Tank</a></td>
+                        <td><a href="units.html#thopter" id="link-thopter">Ornithopter</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#ordos" class="link-ordos">Ordos</a></td>
+                        <td><a href="units.html#deviator" id="link-deviator">Deviator</a></td>
+                        <td><a href="units.html#thopter" id="link-thopter2">Ornithopter</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#harkonnen" class="link-harkonnen">Harkonnen</a></td>
+                        <td><a href="units.html#devastator" id="link-devastator">Devastator</a></td>
+                    </tr>
+                </table>
+                </div>
+                <q>The IX facility provides technology upgrades on structures and vehicles. Special weapons and prototypes may also become available through the Research Center.</q>
+            </article>
+            
+            <article id="#starport">
+                <figure>
+                    <pre>Starport
+Power Needs: 50</pre>
+                    <img src="images/portraits/buildings/starport.jpg" alt="Starport">
+                    <figcaption>Starport</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Advanced Structure</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <th>Capacity</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x3 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#refinery" id="link-refinery">Refinery</a></td>
+                    </tr>
+                </table>
+                <div class="production">
+                <table> 
+                    <tr>
+                        <th>Unit</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#trike" id="link-trike">Trike</a></td>
+                        <td>60-240</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#quad" id="link-quad">Quad</a></td>
+                        <td>80-320</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#tank" id="link-tank">Combat Tank</a></td>
+                        <td>120-480</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#rocket" id="link-rocket">Missile Tank</a></td>
+                        <td>180-720</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#sTank" id="link-sTank">Siege Tank</a></td>
+                        <td>240-960</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#mcv" id="link-mcv">MCV</a></td>
+                        <td>360-999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#harvester" id="link-harvester">Harvester</a></td>
+                        <td>120-480</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#carryall" id="link-carryall">Carryall</a></td>
+                        <td>320-999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="units.html#thopter" id="link-thopter">Ornithopter</a></td>
+                        <td>240-960</td>
+                    </tr>
+                </table>
+                </div>
+                <q>The Starport allows you to engage in intergalactic trading with the Merchant's Guild. They provide a trading market for vehicles and airborne units at premium rates.</q>
+            </article>
+            
+            <article id="palace">
+                <figure>
+                    <pre>Palace
+Power Needs: 80</pre>
+                    <img src="images/portraits/buildings/palace.jpg" alt="Palace">
+                    <figcaption>Palace</figcaption>
+                </figure>
+                <table>
+                    <tr>
+                        <th>Type</th>
+                        <td>Capitol Building</td>
+                    </tr>
+                    <tr>
+                        <th>Armament</th>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <td>999</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>3x3 tiles</td>
+                    </tr>
+                    <tr>
+                        <th>Power Needs</th>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <th>prerequisite</th>
+                        <td><a href="#starport" id="link-starport">Starport</a></td>
+                    </tr>
+                </table>
+                <div class="abilities">
+                <table>
+                    <tr>
+                        <th>House</th>
+                        <th>Ability</th>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#atreides" class="link-atreides">Atreides</a></td>
+                        <td><a href="units.html#fremen" id="ability-fremen">Fremen</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#ordos" class="link-ordos">Ordos</a></td>
+                        <td><a href="units.html#saboteur" id="ability-saboteur">Saboteur</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="houses.html#harkonnen" class="link-harkonnen">Harkonnen</a></td>
+                        <td><a href="units.html#dHand" id="ability-dhand">Death Hand</a></td>
+                    </tr>
+                </table>
+                </div>
+                <q>Palaces are awarded to chosen leaders who show great bravery and prowess in their missions. A Palace can only be built on the final levels of the game. The Palace will also serve as the command center as soon as it is occupied. Many Palaces feature unique additional options.</q>
+            </article>
+            
+            
+            
+        </section>
+        <footer><a href="#top">[Return to top]</a></footer>
+    </body>
+</html>

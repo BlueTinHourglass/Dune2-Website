@@ -1,0 +1,68 @@
+html {
+    background-image: url("../images/background/d8esp4j-2140f882-f0cd-4550-ae85-0925c985cf87.jpg");
+}
+
+#unit-contents h2 {
+    text-align: center;
+}
+
+#unit-contents ul {
+    list-style: none;
+    border: dashed #AA7939 1px;
+    height: 54px;
+    padding: 10px 10px;
+    /* background-color: #d4aa6a; */
+}
+
+#unit-contents li{
+    float: left;
+    margin: 0px 6px;
+}
+
+a {
+    margin:0px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-decoration: none;
+}
+
+#link-heavy, #link-light, #link-tech, #link-barracks, #link-WOR, #link-palace {
+    padding-left: 34px;
+}
+
+article a:hover {
+    color: lightgoldenrodyellow;
+}
+
+/* Units.html Contents Icons */
+#link-harvester {background-image: url(../images/sprites/units/atreides/harvester.gif);}
+#link-infantry { background-image: url(../images/sprites/units/atreides/infantry.gif); }
+#link-infantry-solo { background-image: url(../images/sprites/units/atreides/infantry-solo.gif); }
+#link-troopers { background-image: url(../images/sprites/units/atreides/troopers.gif); }
+#link-trooper { background-image: url(../images/sprites/units/atreides/trooper.gif); }
+#link-trike { background-image: url(../images/sprites/units/atreides/trike.gif); }
+#link-quad { background-image: url(../images/sprites/units/atreides/quad.gif); }
+#link-tank { background-image: url(../images/sprites/units/atreides/combat-tank.gif); }
+#link-rocket { background-image: url(../images/sprites/units/atreides/missile-tank.gif); }
+#link-sTank { background-image: url(../images/sprites/units/atreides/siege-tank.gif); }
+#link-thopter { background-image: url(../images/sprites/units/atreides/ornithopter.gif); }
+#link-carryall { background-image: url(../images/sprites/units/atreides/carryall.gif); }
+#link-mcv { background-image: url(../images/sprites/units/atreides/mcv.gif); }
+#link-devastator { background-image: url(../images/sprites/units/harkonnen/devastator.gif); }
+#link-dHand { background-image: url(../images/sprites/units/death-hand2.gif); }
+#link-raider { background-image: url(../images/sprites/units/ordos/raider.gif); }
+#link-deviator { background-image: url(../images/sprites/units/ordos/deviator.gif); }
+#link-saboteur { background-image: url(../images/sprites/units/saboteur2.gif); }
+#link-sonic { background-image: url(../images/sprites/units/atreides/sonic-tank.gif); }
+#link-fremen { background-image: url(../images/sprites/units/fremen.gif); }
+#link-worm { background-image: url(../images/sprites/units/sand-worm.gif); }
+#link-sardaukar { background-image: url(../images/sprites/units/sardaukar.gif); }
+
+/* Buildings.html Contents Icons */
+#link-barracks { background-image: url(../images/icons/building_icons/icon_barracks.png); }
+#link-WOR { background-image: url(../images/icons/building_icons/icon_wor.png); }
+#link-light { background-image: url(../images/icons/building_icons/icon_lightfactory.png); }
+#link-heavy { background-image: url(../images/icons/building_icons/icon_heavyfactory.png); }
+#link-tech { background-image: url(../images/icons/building_icons/icon_hightech.png); }
+#link-palace { background-image: url(../images/icons/building_icons/icon_palace.png); }

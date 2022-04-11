@@ -1,0 +1,140 @@
+html {
+    background-color: #aa7d39;
+    
+    background-repeat: fixed;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: serif;
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    background-color: #d4aa6a;
+    padding: 20px 80px;
+    /* border: 3px solid #543300;*/
+    border-image: url(../images/sidebar/column5_18-12-5-12.png);
+    border-image-slice: 18 12 5 12;
+    border-image-repeat: repeat;
+    border-image-width: auto;
+    
+}
+
+a {
+    color: #543300;
+}
+
+a:hover {
+    color: #ffddaa;
+}
+
+h1, h2, h3 {
+    color: #805616;
+    text-align: center;
+    font-family: fantasy;
+}
+
+h1 + hr {
+    color: #805616;
+}
+
+hr {
+    border-color: #805616;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* Information to appear above an image when you hover over it*/
+pre {
+    user-select: none;
+    font-family: monospace;
+    color: white;
+    text-transform:uppercase;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    font-size: 10px;
+    line-height: 9px;
+    margin: 0px;
+    padding: 4px 0px 0px 4px;
+    position: absolute;
+    opacity: 0;
+    width: 178px;
+    height:108px;
+}
+pre:hover {
+    opacity: 1;
+}
+
+article {
+    background-color: lightgoldenrodyellow;
+    background-color: #ffddaa;
+    border: solid #AA7939 2px;
+    width: 600px;
+    margin: 30px auto;
+}
+
+figure {
+    margin:0px; 
+    padding: 24px;
+    width:182px;
+    float:left;
+}
+
+img {
+    border: solid black 2px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 700;
+}
+
+table{
+    float:left;
+    margin: 20px 20px;
+}
+
+th {
+    float:left;
+}
+
+th:after {
+    content: ":";
+}
+
+q{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 0px 0px;
+}
+
+/* House Links */
+.link-atreides {
+    color: #202F7A;
+    padding: 0px;
+}
+.link-atreides:hover {
+    color: #485bb5;
+}
+
+.link-ordos {
+    color: #1D781D;
+    padding: 0px;
+}
+.link-ordos:hover {
+    color: #37a637;
+}
+
+.link-harkonnen {
+    color: #780000;
+    padding: 0px;
+}
+.link-harkonnen:hover {
+    color: #a10d0d;
+}
